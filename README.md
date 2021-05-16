@@ -14,11 +14,18 @@ To install the package in editable mode, use:
 pip install -e /path/to/ml_toolbox
 ```
 
-## Usage
+## Example Usage
 The package can be imported by another python module with:
 
 ```
-import ml_toolbox
+from ml_toolbox.nn import NeuralNetwork
+
+x = np.array([[0., 0.], [1., 1.]])
+y = np.array([0, 1])
+nn = NeuralNetwork(x, y, learning_rate = 0.1, num_classes = 10, hidden_units = 4, epochs = 2)
+nn.train(x, y, 'logs.out')
+nn.predict()
+print(nn.y_preds)
 ```
 
 ## Notes
