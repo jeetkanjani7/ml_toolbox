@@ -28,8 +28,15 @@ nn.predict()
 print(nn.y_preds)
 ```
 
+## Testing
+
+To run the tests from the root of the project:
+```
+python -m pytest tests
+```
+
 ## Notes
 Major part of the code was written for the coursework of 10-601 at CMU. This repository is under development. 
-The aim is to add in more vectorization, reusability in the code. Some modules will be written in jax.
+More vectorization, reusability in the code will be added. Some modules will be written in jax.
 
 To contact the author, feel free to write to jkanjani@andrew.cmu.edu
