@@ -81,6 +81,21 @@ nb = NaiveBayes(x_train, y_train)
 nb.predict(x_test)
 ```
 
+### Q Learning
+Currently only works with Mountain Car dataset (https://gym.openai.com/envs/MountainCar-v0/)
+
+
+
+### Visualizations
+![NN hidden layer ablation study](data/plots/hidden.png)
+
+![NN lr= 0.001 ablation study](data/plots/lr3.png) ![NN lr= 0.01 ablation study](data/plots/lr2.png) ![NN lr= 0.1 ablation study](data/plots/lr1.png)
+
+![Decision Tree Error](data/plots/dtree_error.png)
+
+
+![Q learning: Rewards across episodes](data/plots/rl.png)
+
 ## Testing
 
 To run the tests from the root of the project:
