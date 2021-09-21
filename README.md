@@ -1,4 +1,4 @@
-# ml_toolbox
+# ML Toolbox
 Python Package containing ml algorithms written in numpy.
 
 ## Installation
